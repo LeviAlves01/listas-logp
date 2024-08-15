@@ -2,8 +2,9 @@
 
 void main()
 {
-    char mes;
+    int mes;
     printf("Digite um número:");
+    scanf("%i", &mes);
 
     switch (mes)
     {

@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-void main()
+int main()
 {
     int mes;
     printf("Digite um número:");
-    scanf("%i", &mes)
+    scanf("%i", &mes);
 
     switch (mes)
     {

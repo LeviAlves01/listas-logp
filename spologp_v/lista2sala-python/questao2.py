@@ -9,6 +9,6 @@ else:
     nota_exame = float(input("Digite a nota de exame:"))
     nova_media = (nota_exame+media)/2
     if(nova_media>=5.0):
-            print("O aluno foi aprovado com a seguinte nova média:", round(media, 2))
+            print("O aluno foi aprovado com a seguinte nova média:", round(nova_media, 2))
     else:
             print("O aluno foi reprovado")
