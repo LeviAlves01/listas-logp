@@ -2,11 +2,12 @@
 #include<math.h>
 
 int main(){
-   int i;
+   int i = 15;
 
-   for(i = 15; i<=200; i++){
-    printf("%i", &i);
-    i = pow(i, 2);
+   while(i<=200){
+      printf("%i", &i);
+      i = (int)pow(i, 2);
+      i++;
    }
 
    return 0;
