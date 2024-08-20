@@ -7,7 +7,7 @@ resultado = int
 
 
 while True:
-    operacao = str(input("Digite a operação (+, -,, /) que deseja fazer ou S para sair:"))
+    operacao = str(input("Digite a operação (+, -, *, /) que deseja fazer ou S para sair:"))
     if(operacao=="S"):
         print("Saindo do programa...")
         break
@@ -23,8 +23,8 @@ while True:
         resultado = A-B
         print(resultado)
 
-    elif(operacao==""):
-        resultado = AB
+    elif(operacao=="*"):
+        resultado = A*B
         print(resultado)
 
     elif(operacao=="/"):
