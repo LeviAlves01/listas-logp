@@ -9,3 +9,5 @@ elif(resultado<0):
     print("Esse não é um valor válido, pois a distância entre os valores é negativa")
 else:
     print(resultado)
+
+    #O algoritmo solicita ao usuário que digite um valor para indicar a diferença entre ele e o valor chave, no caso, 100. Caso o valor fornecido seja menor que 0, o programa informa que o valor é inválido, pois a distância entre eles é negativa, e caso seja maior que o número chave, também informa que não é possível indicar a diferença entre eles.
